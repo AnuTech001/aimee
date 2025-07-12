@@ -11,7 +11,7 @@ function estrela(x, y, r, alpha) {
 }
 
 let estrelas = [];
-for (let i = 0; i < 2000; i++) {
+for (let i = 0; i < 400; i++) {
   estrelas.push({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height,
