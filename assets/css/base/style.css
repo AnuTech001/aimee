@@ -1,0 +1,58 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  background: black;
+  font-family: "MedievalSharp", cursive;
+  color: white;
+  scroll-behavior: smooth;
+  max-width: 2000px;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+canvas#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.conteiner {
+  border: 2px solid blue;
+  border-radius: 20px;
+  background: rgba(0, 0, 255, 0.2);
+  margin: 20px;
+  padding: 10px;
+  max-width: 2000px;
+}
+
+.btn-musica {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  background: rgba(0, 0, 255, 0.2);
+  color: white;
+  border: 2px solid blue;
+  border-radius: 20px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 15px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: white;
+  opacity: 0.2;
+}

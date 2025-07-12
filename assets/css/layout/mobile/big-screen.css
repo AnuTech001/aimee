@@ -1,0 +1,14 @@
+@media (min-width: 430px) and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+}

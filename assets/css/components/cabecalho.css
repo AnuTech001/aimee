@@ -1,0 +1,8 @@
+.cabecalho {
+  background: rgba(0, 0, 255, 0.2);
+  color: #ffffff;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
