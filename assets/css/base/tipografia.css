@@ -14,7 +14,12 @@
   margin-bottom: 2px;
 }
 
-.texto p {
+.texto p,
+.texto-especial p {
   margin-top: 2px;
   font-size: 20px;
+}
+
+.rodape p{
+  font-size: 30px;
 }
