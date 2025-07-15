@@ -11,4 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   loadHTML("cabecalho", "components/cabecalho.html");
   loadHTML("carta", "components/carta.html");
   loadHTML("projeto", "components/projeto.html");
+  loadHTML("frase-final", "components/frase-final.html");
+  loadHTML("rodape", "components/rodape.html");
 });
